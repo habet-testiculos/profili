@@ -1,0 +1,4 @@
+deger: 31
+spring:
+  profiles:
+    active: test

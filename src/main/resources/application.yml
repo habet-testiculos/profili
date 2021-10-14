@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8761
+  application:
+    name: profili
+---
+spring:
+  profiles:
+    active: local
